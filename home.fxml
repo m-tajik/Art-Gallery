@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="masoum" prefHeight="594.0" prefWidth="706.0" styleClass="homepage" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="gallery" alignment="CENTER" contentDisplay="CENTER" layoutX="220.0" layoutY="31.0" prefHeight="103.0" prefWidth="242.0" style="-fx-border-radius: 25; -fx-background-radius: 25;" styleClass="gallery" stylesheets="@application.css" text="AUAF ART GALLERY" />
+      <Label fx:id="auaf" alignment="TOP_LEFT" layoutX="172.0" layoutY="163.0" prefHeight="394.0" prefWidth="363.0" style="-fx-border-radius: 25px; -fx-background-radius: 25px;" styleClass="auaf" stylesheets="@application.css" text="AUAF Art gallery is a tool to manage the artworks of AUAF Art Gallery. It stores the names and other details of artists in database as well as performing delete or other updates. In addition, it also stores the artworks of artists, deletes ans updates them. Through this tool, the admin can easily manage the art gallery." wrapText="true">
+         <opaqueInsets>
+            <Insets bottom="15.0" left="15.0" top="15.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="15.0" left="15.0" top="15.0" />
+         </padding></Label>
+   </children>
+</AnchorPane>
