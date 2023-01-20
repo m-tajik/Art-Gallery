@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.control">
+   <children>
+      <BorderPane fx:id="Ali" layoutY="-1.0" prefHeight="697.0" prefWidth="1107.0">
+         <left>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXButton fx:id="home" layoutY="-1.0" onAction="#home" prefHeight="140.0" prefWidth="201.0" styleClass="home" stylesheets="@application.css" text="Home" />
+                  <JFXButton fx:id="artwork" layoutX="-1.0" layoutY="139.0" onAction="#artwork" prefHeight="141.0" prefWidth="202.0" styleClass="artwork" stylesheets="@application.css" text="Sketchs" />
+                  <JFXButton fx:id="painting" layoutY="416.0" onAction="#painting" prefHeight="137.0" prefWidth="202.0" styleClass="artist" stylesheets="@application.css" text="Painting" />
+                  <JFXButton fx:id="add" layoutY="553.0" onAction="#addartist" prefHeight="148.0" prefWidth="202.0" styleClass="add" stylesheets="@application.css" text="Artist's details" />
+                  <JFXButton fx:id="digit" layoutX="-1.0" layoutY="280.0" onAction="#digital" prefHeight="137.0" prefWidth="202.0" styleClass="artist" stylesheets="@application.css" text="Digital arts" />
+               </children>
+            </Pane>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>
