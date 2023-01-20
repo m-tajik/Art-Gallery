@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="a" cacheShape="false" centerShape="false" prefHeight="553.0" prefWidth="1045.0" scaleShape="false" style="-fx-background-radius: 20px;" styleClass="a" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.control">
+   <children>
+      <Pane fx:id="pane" layoutX="41.0" layoutY="55.0" prefHeight="472.0" prefWidth="428.0" style="-fx-border-color: silver; visibility: .5s; -fx-background-color: #ffffff80; -fx-background-radius: 25;" stylesheets="@application.css" visible="false">
+         <children>
+            <Label fx:id="l" alignment="CENTER" contentDisplay="CENTER" layoutX="78.0" layoutY="44.0" prefHeight="69.0" prefWidth="117.0" style="-fx-border-color: silver; -fx-border-radius: 60px; -fx-background-color: #FFFFFF22; -fx-background-radius: 100px;" text="Login" textFill="#173e40">
+               <font>
+                  <Font name="Californian FB" size="24.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="t" layoutX="78.0" layoutY="158.0" prefHeight="25.0" prefWidth="234.0" promptText="Username" style="-fx-background-color: TRANSPARENT; -fx-border-radius: 70px; -fx-background-radius: 100px;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="pass" layoutX="78.0" layoutY="224.0" prefHeight="25.0" prefWidth="234.0" promptText="Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXButton fx:id="signin" layoutX="70.0" layoutY="340.0" onAction="#signin" prefHeight="50.0" prefWidth="125.0" style="-fx-border-color: silver; -fx-background-radius: 25px; -fx-border-radius: 25;" styleClass="signin" stylesheets="@application.css" text="Sign In" />
+            <JFXButton fx:id="cancel" layoutX="259.0" layoutY="340.0" onAction="#cancel" prefHeight="50.0" prefWidth="117.0" style="-fx-border-color: silver; -fx-border-radius: 25px; -fx-background-radius: 50px;" styleClass="cancel" stylesheets="@application.css" text="Cancel" />
+         </children>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Pane>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DISAPPEAR" />
+   </cursor>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

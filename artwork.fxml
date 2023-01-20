@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="646.0" prefWidth="973.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.control">
+  <tabs>
+    <Tab text="Sketch">
+      <content>
+        <AnchorPane fx:id="sketch" minHeight="0.0" minWidth="0.0" prefHeight="590.0" prefWidth="853.0" styleClass="sketch" stylesheets="@application.css">
+               <children>
+                  <Pane fx:id="register1" layoutX="544.0" layoutY="29.0" prefHeight="543.0" prefWidth="307.0" styleClass="register" stylesheets="@application.css">
+                     <children>
+                        <JFXButton fx:id="chooser" layoutX="69.0" layoutY="39.0" onAction="#importandsave" prefHeight="50.0" prefWidth="163.0" styleClass="reg" stylesheets="@application.css" text="Add Sketch" />
+                        <JFXButton fx:id="chooser1" layoutX="53.0" layoutY="193.0" onAction="#deletesketch" prefHeight="50.0" prefWidth="194.0" styleClass="reg" stylesheets="@application.css" text="Delete Sketch" />
+                        <JFXTextField fx:id="skid" layoutX="66.0" layoutY="129.0" prefHeight="48.0" prefWidth="168.0" promptText="Enter Sketch ID" />
+                        <JFXButton fx:id="chooser11" layoutX="13.0" layoutY="405.0" onAction="#updatesketch" prefHeight="50.0" prefWidth="286.0" styleClass="reg" stylesheets="@application.css" text="Update Sketch's Artist" />
+                        <JFXTextField fx:id="skid1" layoutX="32.0" layoutY="341.0" prefHeight="48.0" prefWidth="248.0" promptText="Enter Artist's ID" />
+                        <JFXTextField fx:id="skid11" layoutX="30.0" layoutY="276.0" prefHeight="48.0" prefWidth="248.0" promptText="Enter sketch's ID" />
+                        <JFXButton fx:id="chooser2" layoutX="69.0" layoutY="467.0" onAction="#rese" prefHeight="50.0" prefWidth="163.0" styleClass="reg" stylesheets="@application.css" text="Reset" />
+                     </children>
+                  </Pane>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
