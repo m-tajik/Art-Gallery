@@ -1,0 +1,788 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.a{
+	-fx-background-image:url("untitled-37_300sml.jpg");
+}
+
+.signin{
+    -fx-font-weight: bold;
+    -fx-background-color:#FFFFFF80;
+    -fx-background-radius: 5;
+    -fx-font-size: 22;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+}
+
+
+
+.signin:hover {
+    -fx-font-weight: bold;
+    -fx-background-color: #63a4ff;
+    -fx-background-radius: 25px;
+    -fx-font-size: 22;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius: 25px;
+    -fx-border-width: 3;
+}
+
+.signin:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color:#63a4ff;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+    
+    
+}
+
+.signin:focused{
+    -fx-font-weight: bold;
+    -fx-background-color: #63a4ff;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill: black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+    
+}
+
+.cancel {
+    -fx-font-weight: bold;
+    -fx-background-color:#FFFFFF80;
+    -fx-background-radius: 5;
+    -fx-font-size: 22;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+}
+
+
+
+.cancel:hover {
+    -fx-font-weight: bold;
+    -fx-background-color: #63a4ff;
+    -fx-background-radius: 25px;
+    -fx-font-size: 22;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius: 25px;
+    -fx-border-width: 3;
+}
+
+.cancel:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color:#63a4ff;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+    
+    
+}
+
+.cancel:focused{
+    -fx-font-weight: bold;
+    -fx-background-color: #63a4ff;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill: black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+    
+}
+
+.homepage{
+	-fx-background-image:url("80254158_3648566508488651_1731157096310767616_o.jpg"); 
+}
+
+.gallery{
+    -fx-font-weight: bold;
+    -fx-background-color:#FFFFFF80;
+    -fx-background-radius: 25;
+    -fx-font-size: 22;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+}
+
+
+
+.gallery:hover {
+    -fx-font-weight: bold;
+    -fx-background-color: #63a4ff;
+    -fx-background-radius: 25px;
+    -fx-font-size: 22;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius: 25px;
+    -fx-border-width: 3;
+}
+
+.gallery:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color:#63a4ff;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+    
+    
+}
+
+.gallery:focused{
+    -fx-font-weight: bold;
+    -fx-background-color: #63a4ff;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill: black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+    
+}
+
+.auaf{
+    -fx-font-weight: bold;
+    -fx-background-color:#FFFFFF80;
+    -fx-background-radius: 25;
+    -fx-font-size: 22;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+}
+
+
+
+.auaf:hover {
+    -fx-font-weight: bold;
+    -fx-background-color:mediumaquamarine;
+    -fx-background-radius: 25px;
+    -fx-font-size: 22;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius: 25px;
+    -fx-border-width: 3;
+}
+
+
+
+.auaf:focused{
+    -fx-font-weight: bold;
+    -fx-background-color:mediumaquamarine;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill: black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+    
+}
+
+.artone
+{
+-fx-background-image:url("78721837_3648566978488604_6674442460032139264_o.jpg");	
+}
+
+
+
+.omd{
+    -fx-font-weight: bold;
+    -fx-background-color:#FFFFFF80;
+    -fx-background-radius: 25px;
+    -fx-font-size: 12;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 25px;
+    -fx-border-width: 1;
+}
+
+
+
+.omd:hover {
+    -fx-font-weight: bold;
+    -fx-background-color:mediumturquoise;
+    -fx-background-radius: 25px;
+    -fx-font-size: 12;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius: 25px;
+    -fx-border-width: 3;
+}
+
+.omd:pressed{
+    -fx-font-weight: bold;
+   -fx-background-color:mediumturquoise;
+    -fx-background-radius: 25px;
+    -fx-font-size: 12;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius: 25px;
+    -fx-border-width: 3;
+    
+    
+}
+
+.omd:focused{
+    -fx-font-weight: bold;
+    -fx-background-color:mediumturquoise;
+    -fx-background-radius: 25px;
+    -fx-font-size: 12;
+    -fx-text-fill: black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25px;
+    -fx-border-width: 3;
+    
+}
+
+.omid{
+    -fx-font-weight: bold;
+    -fx-background-color:#FFFFFF80;
+    -fx-background-radius: 25px;
+    -fx-font-size: 12;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 25px;
+    -fx-border-width: 1;
+}
+
+.omid:hover {
+    -fx-font-weight: bold;
+    -fx-background-color: #63a4ff;
+    -fx-background-radius:25px;
+    -fx-font-size: 12;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius:25px;
+    -fx-border-width: 3;
+}
+
+.omid:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color:#63a4ff;
+    -fx-background-radius: 25px;
+    -fx-font-size: 12;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius:25px;
+    -fx-border-width: 3;
+    
+    
+}
+
+.omid:focused{
+    -fx-font-weight: bold;
+    -fx-background-color: #63a4ff;
+    -fx-background-radius: 25px;
+    -fx-font-size: 12;
+    -fx-text-fill: black;
+    -fx-border-color: silver;
+    -fx-border-radius:25px;
+    -fx-border-width: 3;
+    
+}
+
+.mitra{
+    -fx-font-weight: bold;
+    -fx-background-color:#FFFFFF80;
+    -fx-background-radius: 25px;
+    -fx-font-size: 12;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 25px;
+    -fx-border-width: 1;
+}
+
+.mitra:hover {
+    -fx-font-weight: bold;
+    -fx-background-color: #63a4ff;
+    -fx-background-radius:25px;
+    -fx-font-size: 12;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius:25px;
+    -fx-border-width: 3;
+}
+
+.mitra:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color:#63a4ff;
+    -fx-background-radius: 25px;
+    -fx-font-size: 12;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius:25px;
+    -fx-border-width: 3;
+    
+    
+}
+
+.mitra:focused{
+    -fx-font-weight: bold;
+    -fx-background-color: #63a4ff;
+    -fx-background-radius: 25px;
+    -fx-font-size: 12;
+    -fx-text-fill: black;
+    -fx-border-color: silver;
+    -fx-border-radius:25px;
+    -fx-border-width: 3;
+    
+}
+
+.behesht{
+    -fx-font-weight: bold;
+    -fx-background-color:#FFFFFF80;
+    -fx-background-radius: 25px;
+    -fx-font-size: 12;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 25px;
+    -fx-border-width: 1;
+}
+
+.behesht:hover {
+    -fx-font-weight: bold;
+    -fx-background-color: #63a4ff;
+    -fx-background-radius:25px;
+    -fx-font-size: 12;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius:25px;
+    -fx-border-width: 3;
+}
+
+.behesht:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color:#63a4ff;
+    -fx-background-radius: 25px;
+    -fx-font-size: 12;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-radius:25px;
+    -fx-border-width: 3;
+    
+    
+}
+
+.behesht:focused{
+    -fx-font-weight: bold;
+    -fx-background-color: #63a4ff;
+    -fx-background-radius: 25px;
+    -fx-font-size: 12;
+    -fx-text-fill: black;
+    -fx-border-color: silver;
+    -fx-border-radius:25px;
+    -fx-border-width: 3;  
+}
+.home{
+    -fx-font-weight: bold;
+    -fx-background-color:cadetblue;
+    
+    -fx-font-size: 20;
+    -fx-text-fill: black;
+    
+    
+    -fx-border-width: 1;
+}
+
+.home:hover {
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+    
+    -fx-font-size: 20;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+   
+    -fx-border-width: 3;
+}
+
+.home:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+    
+    -fx-font-size: 20;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-width: 3;
+    
+    
+}
+
+.home:focused{
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+   
+    -fx-font-size: 20;
+    -fx-text-fill: black;
+    -fx-border-color: silver;
+    -fx-border-width: 3;  
+}
+
+.artwork{
+    -fx-font-weight: bold;
+    -fx-background-color:cadetblue;
+    
+    -fx-font-size: 20;
+    -fx-text-fill: black;
+    
+    
+    -fx-border-width: 1;
+}
+
+.artwork:hover {
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+    
+    -fx-font-size: 20;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+   
+    -fx-border-width: 3;
+}
+
+.artwork:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+    
+    -fx-font-size: 20;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-width: 3;
+    
+    
+}
+.artwork:focused{
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+   
+    -fx-font-size: 20;
+    -fx-text-fill: black;
+    -fx-border-color: silver;
+    -fx-border-width: 3;  
+}
+
+.artist{
+    -fx-font-weight: bold;
+    -fx-background-color:cadetblue;
+    
+    -fx-font-size: 20;
+    -fx-text-fill: black;
+    
+    
+    -fx-border-width: 1;
+}
+
+.artist:hover {
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+    
+    -fx-font-size: 20;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+   
+    -fx-border-width: 3;
+}
+
+.artist:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+    
+    -fx-font-size: 20;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-width: 3;
+    
+    
+}
+
+.artist:focused{
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream ;
+   
+    -fx-font-size: 20;
+    -fx-text-fill: black;
+    -fx-border-color: silver;
+    -fx-border-width: 3;  
+}
+
+.add{
+    -fx-font-weight: bold;
+    -fx-background-color:cadetblue ;
+    
+    -fx-font-size: 20;
+    -fx-text-fill: black;
+    
+    
+    -fx-border-width: 1;
+}
+
+.add:hover {
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+    
+    -fx-font-size: 20;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+   
+    -fx-border-width: 3;
+}
+
+.add:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream ;
+    
+    -fx-font-size: 20;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: silver;
+    -fx-border-width: 3;
+    
+    
+}
+
+.add:focused{
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+   
+    -fx-font-size: 20;
+    -fx-text-fill: black;
+    -fx-border-color: silver;
+    -fx-border-width: 3;  
+}
+
+.stage{
+	-fx-background-color:aqua;
+}
+
+.addd{
+	-fx-background-image:url("artsandcrafts-960x640.jpg");
+}
+
+.register{
+   
+    -fx-background-color:#FFFFFF80;
+    -fx-background-radius: 25;
+    -fx-font-size: 22;
+    -fx-text-fill: black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 1;
+}
+
+
+
+.register:hover {
+    
+    -fx-background-color:moccasin ;
+    -fx-background-radius: 25px;
+    -fx-font-size: 22;
+    -fx-text-fill:darkslateblue ;
+    -fx-border-color: silver;
+    -fx-border-radius: 25px;
+    -fx-border-width: 3;
+}
+
+.register:pressed{
+    
+    -fx-background-color:moccasin ;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill: darkslateblue;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+    
+    
+}
+
+.register:focused{
+   
+    -fx-background-color:moccasin ;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill: darkslateblue;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+    
+}
+.reg{
+    -fx-font-weight: bold;
+    -fx-background-color:cadetblue;
+    -fx-background-radius: 25;
+    -fx-font-size: 22;
+    -fx-text-fill:black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 1;
+}
+
+
+
+.reg:hover {
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+    -fx-background-radius: 25px;
+    -fx-font-size: 22;
+    -fx-text-fill:black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25px;
+    -fx-border-width: 3;
+}
+
+.reg:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill:black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+    
+    
+}
+
+.reg:focused{
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill:black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+    
+}
+
+.del{
+	-fx-background-image:url("abstract-art-original-colorful-landscape-painting-a-moment-in-time-by-madart-megan-duncanson.jpg");
+}
+
+.delete1{
+    -fx-background-color:#FFFFFF80;
+    -fx-background-radius: 25;
+    -fx-font-size: 22;
+    -fx-text-fill: black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 1;
+}
+
+
+
+.delete1:hover {
+    -fx-background-color:wheat ;
+    -fx-background-radius: 25px;
+    -fx-font-size: 22;
+    -fx-text-fill:darkslateblue ;
+    -fx-border-color: silver;
+    -fx-border-radius: 25px;
+    -fx-border-width: 3;
+}
+
+.delete1:pressed{
+    
+    -fx-background-color:wheat;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill: darkslateblue;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+    
+    
+}
+
+.delete1:focused{
+    
+    -fx-background-color:wheat;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill: darkslateblue;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+    
+}
+
+.Dellet{
+    -fx-font-weight: bold;
+    -fx-background-color:cadetblue;
+    -fx-background-radius: 25;
+    -fx-font-size: 22;
+    -fx-text-fill:black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 1;
+}
+
+
+
+.Dellet:hover {
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+    -fx-background-radius: 25px;
+    -fx-font-size: 22;
+    -fx-text-fill:black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25px;
+    -fx-border-width: 3;
+}
+
+.Dellet:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill:black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+    
+    
+}
+
+.Dellet:focused{
+    -fx-font-weight: bold;
+    -fx-background-color:mintcream;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill:black;
+    -fx-border-color: silver;
+    -fx-border-radius: 25;
+    -fx-border-width: 3;
+}
+
+.sketch{
+	-fx-background-image:url("His-Home-001.jpg");
+}
+.paint{
+	-fx-background-image:url("rumi.jpg");
+}
+.fur{
+	-fx-background-image:url("madariiiiii.jpeg");
+}
+
+.yew{
+	-fx-background-image:url("look.jpg");
+}
+.edit{
+	-fx-background-image:url("3D-Digital-Art.jpg"); 
+}
+
+.polish{
+	-fx-background-image:url("maxresdefault.jpg");
+}
