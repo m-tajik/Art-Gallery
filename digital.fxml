@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="fur" prefHeight="616.0" prefWidth="858.0" styleClass="fur" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.control">
+   <children>
+      <Pane fx:id="register1" layoutX="477.0" layoutY="50.0" prefHeight="529.0" prefWidth="307.0" styleClass="register" stylesheets="@application.css">
+         <children>
+            <JFXButton fx:id="chooper" layoutX="69.0" layoutY="32.0" onAction="#importandsavee" prefHeight="50.0" prefWidth="163.0" styleClass="reg" stylesheets="@application.css" text="Add D-Art" />
+            <JFXButton fx:id="chooser1" layoutX="59.0" layoutY="161.0" onAction="#deletedig" prefHeight="50.0" prefWidth="194.0" styleClass="reg" stylesheets="@application.css" text="Delete D-art" />
+            <JFXTextField fx:id="dart" layoutX="70.0" layoutY="106.0" prefHeight="48.0" prefWidth="168.0" promptText="Enter Sketch ID" />
+            <JFXButton fx:id="chooser11" layoutX="26.0" layoutY="381.0" onAction="#upddigit" prefHeight="50.0" prefWidth="265.0" styleClass="reg" stylesheets="@application.css" text="Update D-Art's Artist" />
+            <JFXTextField fx:id="dart2" layoutX="45.0" layoutY="323.0" prefHeight="48.0" prefWidth="248.0" promptText="Enter Artist's ID" />
+            <JFXTextField fx:id="dart1" layoutX="45.0" layoutY="259.0" prefHeight="48.0" prefWidth="248.0" promptText="Enter sketch's ID" />
+            <JFXButton fx:id="chooper1" layoutX="75.0" layoutY="450.0" onAction="#res" prefHeight="50.0" prefWidth="163.0" styleClass="reg" stylesheets="@application.css" text="Reset" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
